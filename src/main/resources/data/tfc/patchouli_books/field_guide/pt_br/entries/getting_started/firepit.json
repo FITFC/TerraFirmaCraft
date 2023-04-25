@@ -66,7 +66,7 @@
     },
     {
       "type": "tfc:multimultiblock",
-      "text": "A fogueira, with either a grill or pot added.",
+      "text": "A fogueira, com uma grelha ou panela adicionada.",
       "multiblocks": [
         {
           "pattern": [

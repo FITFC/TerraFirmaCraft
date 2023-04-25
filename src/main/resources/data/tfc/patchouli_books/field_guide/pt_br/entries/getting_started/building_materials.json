@@ -1,6 +1,6 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Building Materials",
+  "name": "Materiais de construção",
   "category": "tfc:getting_started",
   "icon": "tfc:wattle/unstained",
   "pages": [
@@ -93,7 +93,7 @@
         }
       },
       "name": "",
-      "text": "All different varieties of mud bricks.",
+      "text": "Todas as diferentes variedades de tijolos de barro.",
       "enable_visualize": false
     },
     {

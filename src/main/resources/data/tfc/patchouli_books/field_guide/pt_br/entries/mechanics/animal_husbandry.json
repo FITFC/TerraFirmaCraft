@@ -1,35 +1,35 @@
 {
   "__comment__": "This file was automatically created by mcresources",
-  "name": "Animal Husbandry",
+  "name": "Criação animal",
   "category": "tfc:mechanics",
   "icon": "minecraft:egg",
   "pages": [
     {
       "type": "patchouli:text",
-      "text": "$(thing)Livestock$() are animals that can be tamed and bred by the player. Livestock can be either $(thing)male$() or $(thing)female$(). For some animals, it is possible to tell their sex visually. For example, male pigs have tusks."
+      "text": "$(thing)Pecuária$() são animais que podem ser domesticados e criados pelo jogador. A pecuária pode ser tanto de $(thing)macho$() quanto de $(thing)fêmea$(). Para alguns animais, é possível identificar o sexo visualmente. Por exemplo, os porcos machos têm presas."
     },
     {
       "type": "patchouli:text",
-      "text": "Livestock experience $(thing)aging$(). They are born as babies, which are smaller and cannot provide things for the player. After a certain number of days, they grow into $(thing)adult$() animals, which are able to do things like breed or produce milk. After they breed or are used enough times, animals become $(thing)old$(), and are only useful for their meat."
+      "text": "Experiência em pecuária $(thing)envelhecimento$(). Eles nascem bebês, que são menores e não podem fornecer coisas para o jogador. Depois de um certo número de dias, eles crescem e tornam-se $(thing)adultos$(), que são capazes de fazer coisas como procriar ou produzir leite. Depois de se reproduzirem ou serem usados várias vezes, os animais tornam-se $(thing)velhos$(), e são úteis apenas para a sua carne."
     },
     {
       "type": "patchouli:image",
       "images": [
         "tfc:textures/gui/book/tutorial/old_cow.png"
       ],
-      "text": "This bull is old and cannot breed, so it has a faded coat and grey, unseeing eyes.",
+      "text": "Este touro é velho e não pode procriar, por isso tem uma pelagem desbotada e olhos cinzentos e cegos.",
       "border": true
     },
     {
       "type": "patchouli:text",
-      "text": "Livestock can be fed to raise $(thing)familiarity$(). Each animal has foods that it prefers to eat. To feed an animal, $(item)$(k:key.sneak)$() and $(item)$(k:key.use)$() with food in your hand."
+      "text": "O gado pode ser alimentado para aumentar $(thing)familiaridade$(). Cada animal tem alimentos que prefere comer. Para alimentar um animal, $(item)$(k:key.sneak)$() e $(item)$(k:key.use)$() com comida na mão."
     },
     {
       "type": "patchouli:image",
       "images": [
         "tfc:textures/gui/book/tutorial/unfamiliarized_pig.png"
       ],
-      "text": "Livestock have a $(thing)Familiarity Indicator$() that shows how familiar they are with you. Hold $(item)$(k:key.sneak)$() and look at the animal to reveal it.",
+      "text": "O gado tem um $(thing)Indicador de familiaridade$() isso mostra como eles estão familiarizados com você. Segurar $(item)$(k:key.sneak)$() e olhar para o animal para revelá-lo.",
       "border": true
     },
     {
@@ -37,7 +37,7 @@
       "images": [
         "tfc:textures/gui/book/tutorial/no_familiarity_decay_pig.png"
       ],
-      "text": "Familiarity decays a little each day if not fed. Raising the familiarity enough prevents decay, indicated by the white outlined heart.",
+      "text": "A familiaridade diminui um pouco a cada dia se não for alimentada. Aumentar a familiaridade o suficiente evita a decadência, indicada pelo coração contornado em branco.",
       "border": true
     },
     {
@@ -45,18 +45,18 @@
       "images": [
         "tfc:textures/gui/book/tutorial/familiarity_limit_pig.png"
       ],
-      "text": "Adult livestock cannot be fully familiarized, indicated by the red outlined heart. Babies can reach 100% familiarity.",
+      "text": "O gado adulto não pode ser totalmente familiarizado, indicado pelo coração contornado em vermelho. Os bebês podem atingir 100% de familiaridade.",
       "border": true
     },
     {
       "type": "patchouli:text",
       "anchor": "mammals",
-      "text": "$(thing)Mammals$() are livestock that experience $(thing)Pregnancy$(). Adult mammals that are above 30% familiarity and have been fed that day will mate, given that they are of opposite genders and near each other. The female animal will become $(thing)pregnant$(), which causes it to have children a set number of days after fertilization.$(br)An example is $(l:mechanics/animal_husbandry#pig)Pigs$()."
+      "text": "$(thing)Mammals$() são animais que experimentam $(thing)Pregnancy$(). Mamíferos adultos que estão acima de 30% de familiaridade e foram alimentados naquele dia irão acasalar, visto que são de sexos opostos e próximos um do outro. A fêmea animal se tornará $(thing)pregnant$(), o que faz com que tenha filhos um determinado número de dias após a fertilização.$(br)Um exemplo são os $(l:mechanics/animal_husbandry#pig)Porcos$()."
     },
     {
       "type": "patchouli:text",
       "anchor": "wooly_animals",
-      "text": "$(thing)Wooly Animals$() are $(l:mechanics/animal_husbandry#mammals)Mammals$() that can be $(thing)Sheared$() if they are adults and familiar enough to you. Some examples are $(l:mechanics/animal_husbandry#sheep)Sheep$(), $(l:mechanics/animal_husbandry#alpaca)Alpacas$(), and $(l:mechanics/animal_husbandry#musk_ox)Musk Oxen$()."
+      "text": "$(thing)Animais lanosos$() are $(l:mechanics/animal_husbandry#mammals)Mamíferos$() Isso pode ser $(thing)Tosquiado$() se eles são adultos e familiares o suficiente para você. Alguns exemplos sãoe $(l:mechanics/animal_husbandry#sheep)Ovelha$(), $(l:mechanics/animal_husbandry#alpaca)Alpacas$(), e $(l:mechanics/animal_husbandry#musk_ox)Musk Oxen$()."
     },
     {
       "type": "patchouli:text",

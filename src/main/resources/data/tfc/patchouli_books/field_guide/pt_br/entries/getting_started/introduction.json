@@ -49,7 +49,7 @@
       "images": [
         "tfc:textures/gui/book/gui/rock_knapping.png"
       ],
-      "text": "A Knapping Interface.",
+      "text": "A Interface de Knapping.",
       "border": false
     },
     {
